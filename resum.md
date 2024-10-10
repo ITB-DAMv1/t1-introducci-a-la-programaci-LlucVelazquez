@@ -1,6 +1,6 @@
 # 1. INTRODUCCIO
 
-##Per què programar?
+## Per què programar?
 
 En el nostre dia a dia, se’ns plantegen reptes constantment. Durant els anys, aprenem a resoldre aquests reptes, analitzant la situació plantejada i aplicant, de manera sistemàtica, tècniques que ens permeten ser més eficients, segons aquesta situació. És a dir, davant de situacions de la vida quotidiana (fer un tiramisú, jugar a un videojoc, conduir, ...) , seguim instruccions i prenem decisions, en base a certs criteris. 
 
@@ -50,7 +50,8 @@ Un **llenguatge de programació d'alt nivell** es caracteritza per expressar els
 En un **llenguatge de programació de baix nivell**, en canvi, les seves instruccions exerceixen un control directe sobre el maquinari i estan condicionats per l'estructura física de les computadores que el suporten. L'ús de la paraula baix en la seva denominació no implica que el llenguatge sigui menys potent que un llenguatge d'alt nivell, sinó que es refereix a la reduïda abstracció entre el llenguatge i el maquinari. Per exemple, aquest tipus de llenguatges s'utilitza per a programar tasques crítiques dels sistemes operatius, d'aplicacions en temps real o controladors de dispositius. 
  - Els llenguatges de baix nivell són el **llenguatge binari i** el **llenguatge assemblador** (la seva abstracció és una mica més elevada).
 
- ![Nivells d'abastracció dels llenguatges de programació](/nivell_abstraccio_llenguatges.jpg) ![Nivells d'abastracció dels llenguatges de programació. Exemples](/nivells_abstraccio_exemples.jpg)
+ ![Nivells d'abastracció dels llenguatges de programació](/nivell_abstraccio_llenguatges.jpg) 
+ ![Nivells d'abastracció dels llenguatges de programació. Exemples](/nivells_abstraccio_exemples.jpg)
 
 #### 2. Tipus de traducció dels programes
 
@@ -69,6 +70,7 @@ Un cas particular de llenguatge compilat el trobem en el llenguatge JAVA:
 
 1. Tradueix el codi font a un llenguatge intermedi obtenint un programa equivalent amb un menor nivell d’abstracció que l’original i que no pot ser directament executat (fitxer bytecode). 
 2. Tradueix el llenguatge intermedi a un llenguatge comprensible per la màquina, fent servir la **JVM** (Java Virtual Machine) específica per al sistema operatiu on s'executa el fitxer que conté el **bytecode** *(.class)*.
+
 ![Traducció d'un programa en Java](/media.png)
 
 ### Com executa un programa l’ordinador ?
@@ -77,6 +79,7 @@ Un cas particular de llenguatge compilat el trobem en el llenguatge JAVA:
 2. El processador executa les instruccions
 3. Els resultats de les operacions s’emmagatzemen a la RAM
 4. Els resultats finals s’emmagatzemen al disc dur
+
 ![cpu](/cpu.jpg)
 
 ### Com codifica la informació l'ordinador?
@@ -103,6 +106,7 @@ E7A9^16^ =  14×16^3^ +7×16^2^ +10×16^1^ + 9×16^0^ = 57344+1792+160+9 = 59305
 
 #### Conversió de decimal a binari
 43^10^ =  101011
+
 ![decimal](/decimal-hex~3.jpg)
 
 #### Conversió de decimal a hexadecimal
@@ -144,6 +148,7 @@ Són anomenats llenguatges d’**assemblador**. El llenguatge d'assemblador cont
     2. Aquest llenguatge depèn de l'arquitectura /màquina, amb un conjunt d'instruccions diferent per a diferents màquines (depèn de l'arquitectura de l'ordinador).
 
 ![Exemple de procés de traducció d'un programa en Assembler](/sentencia-assembler.jpg)
+
 En ser un llenguatge que requereix un ús molt eficient de la velocitat i de la memòria, s'’utilitza per dissenyar drivers.
 
 #### Llenguatges de tercera generació
