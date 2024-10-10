@@ -64,6 +64,7 @@ En canvi, els llenguatges interpretats tradueixen (interpreten) el codi font pas
 
 Els **llenguatges interpretats** permeten el tipus dinàmic de dades, és a dir, no és necessari inicialitzar una variable amb un determinat tipus de dada, sinó que aquesta pot canviar el seu tipus en condició a la dada que emmagatzema en aquell moment, entre altres característiques més.
  - Python, PHP, JavaScript, Ruby, Perl i MATLAB
+
 ![Tipus de traducció dels programes](/traduccio_llenguatges.jpg)
 
 Un cas particular de llenguatge compilat el trobem en el llenguatge JAVA:
